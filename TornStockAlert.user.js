@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Torn Stock Alert
 // @namespace    http://eu.relentless.pw/
-// @version      0.9.2
+// @version      0.10.0
 // @description  Notifies user defined stock market events
 // @author       Afwas [1337627]
 // @match        *://*.torn.com/index.php
@@ -304,7 +304,7 @@ page += "\t</div>";
 page += "</div>";
 
 // Put 'page' somewhere between similar panes
-$("#management").after(page);
+$("#your-images").after(page);
 
 $("input:checkbox[name='city-wide']").change(function() {
     // New state
